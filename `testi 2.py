@@ -1,6 +1,7 @@
-ikä = 46
-print(ikä)
-ikä = 55
-print(ikä)
-käyttäjä = input("anna nimesi:")
-print("Hauska tavata," + käyttäjä + "!")
+#Ohjelma antaa suorakulmaisen kolmion pinta-alan, kun kanta ja korkeus annetaan.
+kanta = (float)(input("Anna kolmion kanta"))
+korkeus = (float)(input("Anna kolmion korkeus"))
+
+ala = (kanta * korkeus) / 2
+
+print("kolmion ala on " + str(ala))
